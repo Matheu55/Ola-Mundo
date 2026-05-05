@@ -1,20 +1,17 @@
-.menu-header {
-  background-color: #f5f5f5;
-  padding: 10px;
-}
-
 .menu-nav {
-  display: flex;
-  gap: 20px; /* espaço entre links */
-  align-items: center;
+    height: 112px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 3rem;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    color: var(--cor-fonte-principal);
 }
 
-.menu-link {
-  text-decoration: none;
-  color: #333;
-  font-weight: bold;
-}
 
-.menu-link:hover {
-  color: #007bff; /* muda cor ao passar o mouse */
+@media (max-width: 744px) {
+    .navegacao {
+        height: 72px;
+    }
 }

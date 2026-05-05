@@ -1,12 +1,20 @@
 import { useState } from 'react'
 import './App.css'
-import Menu from './componentes/menu/menu'
+import Rodape from './componentes/rodape/rodape'
+import Banner from './componentes/banner/banner'    
+import Menu from './componentes/menu/menu'  
+import Projetos from './componentes/projetos/projetos'
 
 function App() {
 
 
   return (
-    <Menu/>
+    <>
+      <Menu />
+      <Banner></Banner>
+      <Projetos></Projetos>
+      <Rodape></Rodape>
+    </>
   )
 }
 
