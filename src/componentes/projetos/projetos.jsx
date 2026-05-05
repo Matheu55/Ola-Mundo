@@ -33,6 +33,29 @@ export default function Projetos() {
                     Ver projeto
                 </button>
             </div>
+            <div className={styles.projetos} >
+                <img 
+                    className={styles.projetos} 
+                    src="" alt="" />
+                <h2 className={styles.tituloProjeto} ></h2>
+                <button 
+                    className={styles.botaoPrincipal}
+                    onClick={() => window.open("", "_blank")}>
+                    Ver projeto
+                </button>
+            </div>
+            <div className={styles.projetos} >
+                <img 
+                    className={styles.projetos} 
+                    src="" alt="" />
+                <h2 className={styles.tituloProjeto} ></h2>
+                <button
+                    className={styles.botaoPrincipal} 
+                    onClick={() => window.open("", "_blank")}
+                >
+                    Ver projeto
+                </button>
+            </div>
         </section>
     )
 }
