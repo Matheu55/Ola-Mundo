@@ -35,7 +35,7 @@ export default function Projetos() {
             </div>
             <div className={styles.projetos} >
                 <img 
-                    className={styles.projetos} 
+                    className={styles.projetosImg} 
                     src="" alt="" />
                 <h2 className={styles.tituloProjeto} ></h2>
                 <button 
@@ -46,7 +46,19 @@ export default function Projetos() {
             </div>
             <div className={styles.projetos} >
                 <img 
-                    className={styles.projetos} 
+                    className={styles.projetosImg} 
+                    src="" alt="" />
+                <h2 className={styles.tituloProjeto} ></h2>
+                <button
+                    className={styles.botaoPrincipal} 
+                    onClick={() => window.open("", "_blank")}
+                >
+                    Ver projeto
+                </button>
+            </div>
+                        <div className={styles.projetos} >
+                <img 
+                    className={styles.projetosImg} 
                     src="" alt="" />
                 <h2 className={styles.tituloProjeto} ></h2>
                 <button

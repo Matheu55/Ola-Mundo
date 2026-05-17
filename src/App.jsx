@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './App.css'
 import Rodape from './componentes/rodape/rodape'
 import Banner from './componentes/banner/banner'    

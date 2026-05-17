@@ -1,10 +1,11 @@
 import styles from "./sobreMim.module.css";
-import Banner from "../componentes/banner/banner";
-import Menu from "../componentes/menu/menu";
-import PostModelo from "../componentes/postModelo/postModelo";
-import sobreMimFoto from "../assets/sobre_mim_foto.jpg";
-import fotoCapa from "../assets/sobre_mim_capa.png";
-import Rodape from "../componentes/rodape/rodape";
+import Banner from "../../componentes/banner/banner";
+import Menu from "../../componentes/menu/menu";
+import PostModelo from "../../componentes/postModelo/postModelo";
+import sobreMimFoto from "../../assets/sobre_mim_foto.jpg";
+import fotoCapa from "../../assets/sobre_mim_capa.png";
+import Rodape from "../../componentes/rodape/rodape";
+
 
 
 export default function SobreMim() {

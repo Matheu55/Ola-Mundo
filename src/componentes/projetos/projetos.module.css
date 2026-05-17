@@ -2,9 +2,11 @@
   display: flex;
   justify-content: center;
   gap: 30px;
+
 }
 
 .projetos {
+  margin-top: -40px;
   text-align: center;
   width: 282px;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
@@ -19,6 +21,7 @@
 
 .projetosImg {
   width: 100%;
+  border-radius: 10px 10px 0px 0px;
 }
 
 .tituloProjeto {
@@ -42,8 +45,18 @@
   transition: 0.2s
 }
 
-.botaoPrincipal.lg {
-  padding: 1.5rem 2.5rem;
-  font-size: 1.5rem;
-  line-height: 1.125rem;
+
+
+@media (max-width: 1100px){
+  .projetosMain{
+    flex-wrap: wrap;
+    margin-top: 40px;
+    padding: 2rem 1rem 1.5rem;
+    gap: 100px;
+  }
+  .projetos {
+    width: 336px;
+
 }
+}
+
