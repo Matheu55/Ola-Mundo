@@ -1,3 +1,4 @@
+import BotaoPrincipal from "../../componentes/botaoPrincipal/botaoPrincipal";
 import Menu from "../../componentes/menu/menu";
 import Rodape from "../../componentes/rodape/rodape";
 import styles from "./naoEncontrada.module.css";
@@ -23,13 +24,7 @@ export default function Pagina404() {
                     Aguarde uns instantes e recarregue a página, ou volte para a página inicial
                 </p>
                 <div >
-                    <button
-                    className={styles.botaoPrincipal}
-                    onClick={() => navegar("/")}
-                    >
-                        Voltar para a Home
-                    </button>
-
+                    <BotaoPrincipal onClick={() => navegar("/")}>Voltar para a Home</BotaoPrincipal>
                 </div>
             </div>
             <div className={styles.espacoEmBranco}>
