@@ -14,7 +14,7 @@ export default function Menu() {
           Início
         </NavLink>
         <NavLink
-          to="/SobreMim"
+          to="/sobreMim"
           className={({ isActive }) =>
             isActive ? `${styles.menuLink} ${styles.active}` : styles.menuLink
           }

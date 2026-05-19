@@ -33,7 +33,7 @@ export default function Projetos() {
                     className={styles.projetosImg}
                     src="" alt="" />
                 <h2 className={styles.tituloProjeto} ></h2>
-                <BotaoPrincipal onClick={() => window.open("", "_blank")}>
+                <BotaoPrincipal onClick={() => console.log("Ver projeto em breve")}>
                     Ver projeto
                 </BotaoPrincipal>
             </div>
@@ -42,7 +42,7 @@ export default function Projetos() {
                     className={styles.projetosImg}
                     src="" alt="" />
                 <h2 className={styles.tituloProjeto} ></h2>
-                <BotaoPrincipal onClick={() => window.open("", "_blank")}>
+                <BotaoPrincipal onClick={() => console.log("Ver projeto em breve")}>
                     Ver projeto
                 </BotaoPrincipal>
             </div>
@@ -51,7 +51,7 @@ export default function Projetos() {
                     className={styles.projetosImg}
                     src="" alt="" />
                 <h2 className={styles.tituloProjeto} ></h2>
-                <BotaoPrincipal onClick={() => window.open("", "_blank")}>
+                <BotaoPrincipal onClick={() => console.log("Ver projeto em breve")}>
                     Ver projeto
                 </BotaoPrincipal>
             </div>
